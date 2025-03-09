@@ -1,0 +1,16 @@
+Aaron Cohen
+
+
+Description:
+Creating a point of sale system for a bakery. The user is greeted with a message and a menu. They are then asked to enter the food item
+that they want and the quantity to add. At the end they are presented a subtotal and given three options for a tip. After choosing a tip percentage
+the user sees their final cart and final bill total.
+
+Compiling:
+I ran my program with the C# console application on Visual Studio 2019.
+
+Usage:
+Each food item is linked with an integer value. Donuts = 1; Sheet Cakes = 2; Funnel Cakes = 3; Cupcakes = 4; Exit = 5;
+The user should enter a number 1 through 5 and then a number quantity number. Once the user is done adding items
+they can enter a 5 to go to the tip amount (5, 10 or 15). After selecting a tip the user is shown the full cart and 
+final total. 
